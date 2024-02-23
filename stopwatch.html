@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <style>
+        #timer {
+            display: flex;
+            justify-content: center; 
+            margin-top: 100px;
+            font-size: 30px;
+        }
+        button {
+            font-size: 18px;
+            padding: 5px 10px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="timer">
+        <div id="hCount">00:</div>
+        <div id="mCount">00:</div>
+        <div id="sCount">00</div>
+    </div>
+    <br>
+    <center>
+        <button onclick="start()">Start</button>
+        <button onclick="pause()">Pause</button>
+        <button onclick="reset()">Reset</button> 
+    </center>  
+</body>
+</html>
+<script src="./stopwatch.js"></script>
